@@ -4,6 +4,15 @@ function mostrarForm3() {
 function mostrarForm4() {
   document.getElementById("form-reserva").style.display = "block";
 } 
+function mostrarPresentacionPub(){
+  document.getElementById("carousel-quienes-somos").style.display = "block";
+}
+
+$(document).ready(function(){
+  $(".close-btn").click(function(){
+  $(this).closest("#carousel-quienes-somos").hide(); 
+  });
+});
 
 function recogerDatosComuniq(){
   var datosClienteComuniquemonos = {

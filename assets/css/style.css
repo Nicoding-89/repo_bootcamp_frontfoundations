@@ -31,6 +31,7 @@ header{
 
 #carousel-quienes-somos{
   text-align: center;
+  display: none;
 }
 
 .carousel-item.card-presentacion-escondida{
@@ -44,7 +45,7 @@ header{
   top: 50%;
   transform: translate(-50%, -50%); 
   z-index: 9999;  
-  display: none;
+  
 }
 .card-presentacion-escondida{
   padding-top: 3%
