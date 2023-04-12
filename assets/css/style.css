@@ -29,6 +29,42 @@ header{
   width: 40px;  
 }
 
+#carousel-quienes-somos{
+  text-align: center;
+}
+
+.carousel-item.card-presentacion-escondida{
+  background-color: black;
+  color: white;
+  width: 45rem;
+  position: fixed;
+  padding-left: 2%;
+  padding-right: 2%; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 9999;  
+  display: none;
+}
+.card-presentacion-escondida{
+  padding-top: 3%
+}
+
+#descripcion-local{
+  margin-bottom: 32%;
+}
+
+.card-img-bottom#img-descrip{
+  width: 50%;
+  height: 50%;
+  margin: 2% auto;
+}
+.card-img-bottom#img-descrip-sola{
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+}
+
 h1{
   color: grey;  
   font-weight: bolder;
@@ -37,7 +73,7 @@ h1{
   margin-bottom: 7%;
 }
 
-h2{
+.container h2{
   text-decoration: overline;
   text-decoration-color: black;
   text-align: center;
